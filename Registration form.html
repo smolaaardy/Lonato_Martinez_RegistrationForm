@@ -1,0 +1,73 @@
+<DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Registration Form</title>
+	<meta name="My first registration form" content="This is the first registration forms I've made using Coding Dojo!☻">
+</head>
+<body>
+	<h1>My Registration Form</h1>
+	<form action="process.php" method="post">
+	<p>
+		<label for="first_name">First Name:</label>
+		<input type="text" id="first_name" name="first_name">
+	</p>
+	
+	<p>
+		<label for="last_name">Last Name:</label>
+		<input type="text" id="last_name" name="last_name">
+	</p>
+	
+	<p>
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email">
+	</p>
+	
+	<p>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password">
+	</p>
+	
+	<p>
+		<label for="pw_confirm">PW Confirm:</label>
+		<input type="password" id="pw_confirm" name="password_confirmation">
+	</p>
+	
+	<p>
+		<label for="birthday">Birthday:</label>
+		<input type="date" id="birthday" name="birthday">
+	</p>
+
+	<p>
+		<label for="male">Male</label>
+		<input type="radio" id="male" name="gender" value="male">
+
+		<label for="female">Female</label>
+		<input type="radio" id="female" name="gender" value="female">
+
+		<label for="other">Other</label>
+		<input type="radio" id="other" name="gender" value="other">
+	</p>
+
+	<p>
+	<label for="description">A short description about yourself</label>
+	</p>
+	<p>
+	<textarea></textarea>
+	</p>
+
+	<p>
+		<label for="language">Favorite Language</label>
+		<select name="language">
+			<option value="javaScript">Javascript</option>
+			<option value="css">CSS</option>
+			<option value="HTML">HTML</option>
+		</select>
+	</p>
+
+	<p>
+		<input type="submit" value="Submit">
+	</p>
+</form>
+</body>
+</html>
